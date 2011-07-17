@@ -1,14 +1,16 @@
-#!/usr/bin/perl
-use strict; use warnings;
+use strict;
+use warnings;
 use Test::More;
 
 use_ok('Net::SSH::Perl::WithSocks');
 
 my $ssh1 = Net::SSH::Perl::WithSocks->new(
-  'motherbrain.nanabox.net',
-  WithSocks => {
-    SocksHost => 'motherbrain.nanabox.net',
-    SocksPort => 9000 } );
+	'motherbrain.nanabox.net',
+	WithSocks => {
+		SocksHost => 'motherbrain.nanabox.net',
+		SocksPort => 9000,
+		}
+	);
 
 ok( defined($ssh1), "Got \$ssh1 ok." );
 
