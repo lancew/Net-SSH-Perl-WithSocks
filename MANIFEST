@@ -10,4 +10,6 @@ t/load.t
 t/pod.t
 t/pod_coverage.t
 t/prereq.t
+t/00-scratch.t
+t/01-sanity.t
 t/test_manifest
