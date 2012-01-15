@@ -86,7 +86,8 @@ off basic one-off hops and requests.
 
 =head1 AUTHOR
 
-Jennie Rose Evers-Corvina C<< <seven@nanabox.net> >>, Matthew S Trout
+Jennie Rose Evers-Corvina C<< <seven@nanabox.net> >>, 
+Matt S. Trout (mst) C<< <mst@shadowcat.co.uk> >>
 
 =head1 COPYRIGHT
 
