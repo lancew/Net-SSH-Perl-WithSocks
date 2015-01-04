@@ -1,4 +1,4 @@
-# Changes to Net::SSH::Perl::WithSocks
+Revision history for Perl module Net::SSH::Perl::WithSocks
 
 0.02 - Sat Jul 16 23:23:53 2011
 	* Cleaned up the dist
