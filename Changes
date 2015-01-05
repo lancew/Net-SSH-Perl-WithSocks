@@ -1,3 +1,4 @@
+# Changes to Net::SSH::Perl::WithSocks
 
 0.02 - Sat Jul 16 23:23:53 2011
 	* Cleaned up the dist
@@ -5,5 +6,5 @@
 	host to connect to.
 
 0.01 Mon Apr 11 10:21:00 PDT 2011
-  - Wrote up the documentation and created a CPAN-like file-structure.
+	* Wrote up the documentation and created a CPAN-like file-structure.
 
