@@ -1,10 +1,10 @@
 Revision history for Perl module Net::SSH::Perl::WithSocks
 
-0.02 - Sat Jul 16 23:23:53 2011
+0.02 - 2011-07-16
 	* Cleaned up the dist
 	* Nerfed the tests until we can generalize them. We need a
 	host to connect to.
 
-0.01 - Mon Apr 11 10:21:00 PDT 2011
+0.01 - 2011-04-11
 	* Wrote up the documentation and created a CPAN-like file-structure.
 
