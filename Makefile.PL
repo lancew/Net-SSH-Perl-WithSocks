@@ -1,10 +1,12 @@
 require 5.008;
+
+package Net::SSH::Perl::WithSocks;
 use strict;
 use warnings;
 
 use File::Spec::Functions qw(catfile);
 
-my $module    = 'Net::SSH::Perl::WithSocks';
+my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
 my $github    = 'https://github.com/briandfoy/Net-SSH-Perl-WithSocks';
