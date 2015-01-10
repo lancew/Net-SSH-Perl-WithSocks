@@ -50,7 +50,7 @@ my %WriteMakefile = (
 			},
 		},
 	
-	clean  => { FILES    => q|Net-SSH-Perl-*| },
+	clean => { FILES => "$dist-*" },
 	);
 
 sub arguments { \%WriteMakefile }
