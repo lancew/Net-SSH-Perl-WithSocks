@@ -5,6 +5,8 @@ use warnings;
 use File::Spec::Functions qw(catfile);
 
 my $module    = 'Net::SSH::Perl::WithSocks';
+( my $dist = $module ) =~ s/::/-/g;
+
 my $github    = 'https://github.com/briandfoy/Net-SSH-Perl-WithSocks';
 my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
