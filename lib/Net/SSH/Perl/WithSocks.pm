@@ -6,6 +6,8 @@ use vars qw($VERSION);
 
 $VERSION = '0.02';
 
+=encoding utf8
+
 =head1 NAME
 
 Net::SSH::Perl::WithSocks - connect to an SSH host through a TCP proxy
@@ -86,7 +88,7 @@ off basic one-off hops and requests.
 
 =head1 AUTHOR
 
-Jennie Rose Evers-Corvina C<< <seven@nanabox.net> >>, 
+Jennie Rose Evers-Corvina C<< <seven@nanabox.net> >>,
 Matt S. Trout (mst) C<< <mst@shadowcat.co.uk> >>
 
 =head1 COPYRIGHT
