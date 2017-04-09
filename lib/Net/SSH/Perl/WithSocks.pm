@@ -1,7 +1,7 @@
 package Net::SSH::Perl::WithSocks;
 use strict;
 use warnings;
-use base qw(Net::SSH::Perl);
+use parent qw(Net::SSH::Perl);
 use vars qw($VERSION);
 
 $VERSION = '0.02';
