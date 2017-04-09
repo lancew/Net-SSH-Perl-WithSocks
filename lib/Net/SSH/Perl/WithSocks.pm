@@ -95,6 +95,6 @@ Matt S. Trout (mst) C<< <mst@shadowcat.co.uk> >>
 
 =head1 LICENSE
 
-You can use this package under the same terms as Perl itself.
+You can use this package under the Artistic License 2.0.
 
 =cut
