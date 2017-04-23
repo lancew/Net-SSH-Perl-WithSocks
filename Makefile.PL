@@ -65,9 +65,13 @@ my %WriteMakefile = (
 		},
 
 	'PREREQ_PM'     => {
+		'Carp'              => '0',
 		'IPC::PerlSSH'      => '0',
 		'Net::SSH::Perl'    => '0',
 		'IO::Socket::Socks' => '0',
+		'parent'            => '0',
+		'strict'            => '0',
+		'warnings'          => '0',
 		},
 
 	'META_MERGE' => {
