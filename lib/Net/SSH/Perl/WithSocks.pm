@@ -4,7 +4,7 @@ use warnings;
 use parent qw(Net::SSH::Perl);
 use vars qw($VERSION);
 
-$VERSION = '0.021_02';
+$VERSION = '0.021_03';
 
 =encoding utf8
 
