@@ -12,6 +12,14 @@ perl:
     - "5.22"
     - "5.24"
 
+matrix:
+    include:
+        - os: linux
+          addons:
+              apt:
+                  packages:
+                      - libgmp3-dev
+
 before_install:
     - git clone git://github.com/travis-perl/helpers ~/travis-perl-helpers
     - source ~/travis-perl-helpers/init --auto
