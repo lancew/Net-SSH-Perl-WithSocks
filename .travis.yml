@@ -2,7 +2,7 @@ sudo: true
 
 language: perl
 perl:
-    - "5.8"
+    # - "5.8" - This version does not pass due to bad dependencies
     - "5.10"
     - "5.12"
     - "5.14"

@@ -4,6 +4,10 @@ use warnings;
 use parent qw(Net::SSH::Perl);
 use vars qw($VERSION);
 
+require v5.10; # Dependency Math-GMP-2.15 requires 5.10
+               # Todo investigate if the module is required
+               # and if we could use older or change module
+               
 $VERSION = '0.021_03';
 
 =encoding utf8
