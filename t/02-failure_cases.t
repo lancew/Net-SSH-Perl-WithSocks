@@ -13,15 +13,17 @@ my $host     = $sshd->uri->host;
 my $port     = $sshd->uri->port;
 my $bad_port = $port + 1;
 
-ok my $ssh1 = Net::SSH::Perl::WithSocks->new( $host, port => $port, ), "Able to create a Net::SSH::Perl::WithSocks object with valid host/port ($host:$port)";
+my $ssh;
+ok $ssh = Net::SSH::Perl::WithSocks->new( $host, port => $port, ), "Able to create a Net::SSH::Perl::WithSocks object with valid host/port ($host:$port)";
 
 like(
     exception {
-        my $ssh2
+        $ssh
             = Net::SSH::Perl::WithSocks->new( $host, port => $bad_port, );
     },
     qr/Can't connect to $host, port $bad_port/,
     "Correctly dies if unable to connect to a valid port ($host:$bad_port)"
 );
+
 
 done_testing();
